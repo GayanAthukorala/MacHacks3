@@ -14,7 +14,8 @@ plants and our app will tell them how to care for it, providing them with info o
 - House Plants API
 
 ## Presentation and Demo
-https://user-images.githubusercontent.com/73492549/216821431-b8a72e24-0fac-49d2-8879-e9d3d36ff17d.mp4
+https://user-images.githubusercontent.com/73492549/216822025-6e6d29de-23c6-4b41-9451-c451dcfe986d.mp4
+
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/73492549/216821477-ffc258f5-373a-428d-8ba4-99762ac75bc2.png)
