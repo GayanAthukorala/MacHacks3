@@ -1,0 +1,45 @@
+.body{
+  height: 100vh;
+  width: 100vw;
+}
+.plantcare{
+    width: 505px;
+    height: 30vh;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 116px;
+  
+    color: #69539C;
+}
+.plantWrapper{
+
+    width: 95vw;
+    height: 70vh;
+    background: #D2BFE7;
+    border-radius: 0px 40px 0px 0px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: row;
+}
+
+.imageWrapper{
+    width: 45vw;
+    height: 63vh;
+    left: 39px;
+    top: 349px;
+    margin-left: 1.5vw;
+    background: #604A96;
+    border-radius: 20px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
