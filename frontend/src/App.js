@@ -3,6 +3,7 @@ import axios, * as others from "axios";
 import "./App.css";
 import React, { Component, useState } from "react";
 import title from "./images/Logo.PNG";
+import upload from "./images/upload.png";
 
 function App() {
   const [index, setIndex] = useState(0);
@@ -80,7 +81,7 @@ function App() {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "cd4d4e9398msha1a160b6d47f7b2p12c974jsndf0cd5442f53",
+      "X-RapidAPI-Key": "f743b6a069msh0362574c454b5d8p16d83bjsn4881277212b2",
       "X-RapidAPI-Host": "house-plants.p.rapidapi.com",
     },
   };
@@ -127,22 +128,28 @@ function App() {
         <div className="imageWrapper">
           <div>
             <div className="insertPrompt">Insert Photo Here:</div>
-            <input onChange={handleChange} />
-            <button onClick={handleSubmit}>Enter</button>
-            <form>
-              <input type="file" multiple />
-              <button type="button" onClick={sendIdentification}>
-                OK
+            {/* <input onChange={handleChange} />
+            <button onClick={handleSubmit}>Enter</button> */}
+            <div className="uploadButtonAlign">
+              <form>
+                <input type="file" multiple className="custom-file-input" />
+              </form>
+              <button
+                type="button"
+                className="classifyButton"
+                onClick={sendIdentification}
+              >
+                CLASSIFY
               </button>
-            </form>
+            </div>
           </div>
         </div>
-        <div>
-          <div>Plant Name: {name}</div>
-          <div>Max Temperature: {maxTemp}</div>
-          <div>Min Temperature: {minTemp}</div>
-          <div>Tolerated Light: {toleratedLight}</div>
-          <div>Watering: {water}</div>
+        <div className="textAlign">
+          <div className="promptText">Plant Name: {name}</div>
+          <div className="promptText">Max Temperature: {maxTemp}°C</div>
+          <div className="promptText">Min Temperature: {minTemp}°C</div>
+          <div className="promptText">Tolerated Light: {toleratedLight}</div>
+          <div className="promptText">Watering: {water}</div>
         </div>
       </div>
     </div>

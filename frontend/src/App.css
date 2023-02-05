@@ -54,3 +54,90 @@
   
     color: rgba(255, 255, 255, 0.58);
 }
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.custom-file-input::before {
+  content: 'Select Flower';
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #473993;
+  border-radius: 3px;
+  outline: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 10pt;
+  background-color: #403360;
+  color: #fff;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-bottom: 10em;
+  margin-top: 18em;
+
+}
+.uploadButtonAlign{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  
+}
+
+.classifyButton{
+  
+  width: 294px;
+  height: 2em;
+  background-color: rgba(210, 191, 231, 0.67);
+  border-radius: 35px;
+  display: inline-flex;
+  font-family: 'Arial Narrow Bold',
+    sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 48px;
+
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.promptText {
+
+
+  font-family: 'Arial Narrow Bold',
+    sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 48px;
+
+  color: #604A96;
+  display: inline-flex;
+  margin-bottom: 0.5em;
+  margin-left: 3em;
+  margin-right: 3em;
+  text-align: center;
+
+}
+
+.textAlign{
+  width: 40vw;
+  max-width:40vw;
+  height: 27vw;
+    max-height: 27vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 11px solid rgba(96, 74, 150, 0.5);
+  margin-left: 3.5em;
+
+}
